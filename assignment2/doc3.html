@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <form action="">
+            <fieldset>
+                <label  for="name">UserName:</label>
+                <input type="text" id="name" minlength="3" maxlength="30" required name="name"placeholder="Enter your name"><br><br>
+
+                <label  for="pwd">Password:</label>
+                <input type="password" id="pwd" required name="password"placeholder="Enter your password"><br><br>
+
+                <label  for="phone">Phone no:</label>
+                <input type="tel" id="phone" pattern="[0-9]{10}" name="phone" required placeholder="Enter your phoneno."><br><br>
+
+                <label  for="name">Aadhar no. :</label>
+                <input type="tel" id="ad" pattern="[0-9]{12}" name="Aadhar" required placeholder="Enter your Aadhar no."><br><br>
+
+                <label for="em">Email:</label>
+                <input type="email" id="em" name="email" placeholder="Enter your Email"><br><br>
+
+                <label for="age">Age</label>
+                <input type="number" id="age" min="18" max="110" name="age"><br><br>
+                
+
+                <label for="gen">Gender:</label>
+                <input type ="radio" id="gen" name="gender" value="m">Male
+                <input type ="radio" id="gen" name="gender" value="f">Female
+                <input type ="radio" id="gen" name="gender" value="other">others<br><br>
+
+                <label for="res">Resume:</label>
+                <input type="file" id="res" accept="./html" name="resume"><br><br>
+
+                <label for="cou">Country:</label>
+                <select name="" id="cou">
+                    <option value=" ">India</option>
+                    <option value=" ">Nepal</option>
+                    <option value=" ">Russia</option>
+                    <option value=" ">Australia</option>
+                    <option value=" ">Italy</option></select><br></br>
+                    <label for="">Address</label>
+                    <textarea name="" id="" cols="30" rows="10" name="add"></textarea><br><br>
+                    <button>Submit</button>
+                    <input type="Reset">
+                    </fieldset>
+                    </form>
+                    </center> 
+</body>
+</html>
