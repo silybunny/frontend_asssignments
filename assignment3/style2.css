@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+}
+
+#box1{
+    border: 5px solid green;
+    margin: 20px;
+}
+#box2{
+    border: 5px solid grey;
+}

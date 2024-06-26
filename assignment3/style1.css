@@ -1,0 +1,26 @@
+html{
+    background-color:rgb(30, 72, 83);
+}
+
+div{
+    text-align:justify;
+}
+.sidemargin{
+    margin-left: 20%;
+    color: white;
+}
+.flexContainer{
+    display: flex;
+}
+#names,#name,#nam,#na,#n{
+    color:rgb(19, 17, 17)
+}
+label{
+    color: white;
+}
+.one{
+    border-radius: 50%;
+    float:left;
+    width:45px;
+    height:45px;
+}
