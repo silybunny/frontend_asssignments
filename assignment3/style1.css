@@ -24,3 +24,6 @@ label{
     width:45px;
     height:45px;
 }
+input[type=file]{
+    height:50px;
+}

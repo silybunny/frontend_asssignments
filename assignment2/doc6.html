@@ -5,6 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Screen 1</title>
    <link rel="stylesheet" href="./style1.css">
+<style>
+html{
+    background-color:rgb(30, 72, 83);
+}
+
+div{
+    text-align:justify;
+}
+.sidemargin{
+    margin-left: 20%;
+    color: white;
+}
+.flexContainer{
+    display: flex;
+}
+#names,#name,#nam,#na,#n{
+    color:rgb(19, 17, 17)
+}
+label{
+    color: white;
+}
+.one{
+    border-radius: 50%;
+    float:left;
+    width:45px;
+    height:45px;
+}
+</style>
 </head>
 <body>
   
@@ -64,11 +92,10 @@
                     <option value=" ">UP</option></select><br></br>
 
                     <label for="employees">NUMBER OF EMPLOYEES*</label><br>
-                    <input type="option" placeholder="SELECT"style="border-radius: 7px;padding:10px 50px"><br><br>
-                    
+                    <input type="number" id="employees" name="employees" required style="border-radius: 7px;padding:10px 50px"><br><br>
 
-                <label  for="name">I'M INTERESTED IN:*</label><br><input type="option" placeholder="SELECT"style="border-radius: 7px;padding:10px 50px"><br><br>
-                <input type="file" id="file"   name="file" style="border-radius: 7px;" ><br><br><br><br>
+                <label  for="name">I'M INTERESTED IN:*</label><br>
+                <input type="text" id="name" minlength="3" maxlength="30" required name="name"style="border-radius: 7px;padding:10px 50px;"><br><br>
 </fieldset>
 </form>
 </center>
