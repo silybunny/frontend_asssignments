@@ -9,3 +9,14 @@
 #box2{
     border: 5px solid grey;
 }
+.sidemargin
+{
+    margin-left: 10%;
+}
+div{
+    width: 300px;
+        border: 15px solid green;
+        padding: 50px;
+        margin: 20px;
+
+}

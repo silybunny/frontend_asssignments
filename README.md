@@ -10,6 +10,9 @@
 - Completed the given task
 
 ## Assignment3
-- Given a task to replicate two screens using html css
-- Could complete only the html part of screen 1 and will complete both screen by tomorrow
-
+- Given task - Design two screens 
+- Completed both screen 1 and screen 2 but used a lot of chatgpt,w3schools and stackoverflow
+- i am quite less confident (would love to practice more and discuss concepts of flexbox,grid , media quieries etc (need to ask priyanka mam))
+- *My Final Screenshot of Screen 1 and Screen 2*
+ ![My project Screen one image ](./assignment3/screen1_project_image.png)
+ ![My project Screen two image ](./assignment3/Screen_2_project_image.png)
